@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+nav{
+  display: flex;
+  padding: 3rem 0;
+  gap: 2.6rem;
+  width: 90%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a{
+  color: #C4C4CC;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.nav-pseudo{
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.app-home{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.app-home h1{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.app-home button{
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+
+  background-color: rgb(0, 0, 0, 0);
+  border: 2px solid #ffffff;
+  padding: 1rem 2.3rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+
+.app-universe, .app-exploration{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+  margin-left: 160px;
+  margin-top: 100px;
+}
+
+.app-universe h1, .app-exploration h1{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.app-universe p, .app-exploration p{
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 160%;
+}
